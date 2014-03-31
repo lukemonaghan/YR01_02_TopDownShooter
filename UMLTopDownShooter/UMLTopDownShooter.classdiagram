@@ -1,0 +1,1678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="bd7eb6fd-a514-4c4c-ba0a-01eaa0b94ea8" name="UMLTopDownShooter" linkedPackageId="5956a57f-2513-4a5c-a340-0bc323a3ced7" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b9a3a0f6-28e5-4f0d-be3e-1a9d3c6610e6" name="AI.cpp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2a546215-9652-413c-bf48-4e26ad291b74" />
+        <targetEnds>
+          <association Id="3ca7806f-5e28-4cf7-b005-518001cf33c8" isDerived="false" sourceEndRoleName="AI.cpp" targetEndRoleName="map1.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="627d40f4-f7f5-402b-9575-47bb0e41370f" LastKnownName="map1.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a10f4d7-bed9-4896-8661-1298662351a8" name="AI.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fbe74553-0c24-495d-b0ad-5dcfc9a3f059" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eada619a-a79a-44e2-8618-ac2711c6efb5" name="map1.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="93b8ab08-5d30-44ac-bf1d-bde86d66d023" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="95f4c12f-b0e1-4d95-9cc2-ea27ad394837" />
+          </association>
+          <association Id="181507c7-17e7-4960-ad3b-ee2ae7a33ab3" isDerived="false" sourceEndRoleName="AI.cpp" targetEndRoleName="Particles.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7c636b9e-72af-4dea-964f-bfbbfabea780" LastKnownName="Particles.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e3761b78-fcee-4db0-913b-2bddec76d190" name="AI.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fdf62498-9729-4c16-b270-2e6830c85956" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a18c7eb3-c889-4b0a-b6f1-7caed7bdfd9d" name="Particles.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4cb78c38-0ec1-4fcb-a648-ff2c70b90884" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="299d862d-a21e-4a61-a070-fc09147a2385" />
+          </association>
+          <association Id="88bcd75b-c41c-4b92-8129-ba839f6c7585" isDerived="false" sourceEndRoleName="AI.cpp" targetEndRoleName="VectorMath" isLeaf="false" isAbstract="false">
+            <classMoniker Id="87290bff-3f06-45cd-8d28-4c47d17fd3a5" LastKnownName="VectorMath" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5ad037b8-e846-4890-b55e-611bd3bc0ad6" name="AI.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ac5c993c-fe3e-4e12-a0f2-567aa9875797" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c4df9f0-23b1-4723-9306-4a1647b1b5bb" name="VectorMath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c7872d9d-213d-4dfa-b320-ce7fecb32ab0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9bb482f6-e1c3-482a-ba01-590cb89a6340" />
+          </association>
+          <association Id="515b12c1-07e3-476d-856b-cd29d6e740cc" isDerived="false" sourceEndRoleName="AI.cpp" targetEndRoleName="instance" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c29ba152-17c7-43b2-9b11-70176972fcf1" LastKnownName="instance" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e71b76ab-9e13-4c33-a0ae-e47640a07c1d" name="AI.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b3481125-05e6-47fc-bed4-9b7cb9f8d61f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="81222f87-2be2-41f9-b68f-e5750ab6911e" name="instance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="edd6462e-96ac-4282-af6e-deb72bb1bb58" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e3980073-e5c3-4d30-a1d1-0ebb5d811e8e" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="0b98d610-41b7-4769-915a-2d9482756957" name="unsigned int uiEnemy" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d81c3f72-e109-4953-9c00-2d5776af70c1" />
+          </property>
+          <property Id="cb34d36d-87d0-48e8-a80f-89261d4dce40" name="unsigned int iEnemies" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c8466f4e-7272-429f-89bc-9ee0a51b7205" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="70c9d212-9cb2-419a-b182-a9632061faf4" name="void LoadInstance" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="54ddfb0d-25ab-469e-aa54-7f165c2468cf" />
+          </operation>
+          <operation Id="a262d720-1277-43d5-abd1-546766c09b18" name="void DrawNPC" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9cb9fbce-2e72-4db6-92a6-f052801e9bb0" />
+          </operation>
+          <operation Id="3dfb02b0-834c-45c7-8033-543dd2c80c97" name="instance UpdateNPCxy" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3c65765f-8bda-4d8f-aa9d-1c8bd7b465ac" />
+          </operation>
+          <operation Id="3f1a87c0-b708-48a2-bbb0-88f8f00bd9f4" name="void UpdateNPC" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a54d3ec2-8368-42d2-93c4-4dbb56b958bf" />
+          </operation>
+          <operation Id="b953e7c6-ae5e-4e0e-b2e4-99f3646c88e7" name="instance TakeHealth" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9e7122d4-d6eb-450e-99c7-fc304771815e" />
+          </operation>
+          <operation Id="36491850-75d2-4298-8c34-61928c0eb86c" name="void CheckNPC" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e22466c8-71ab-427f-b77e-d56740190876" />
+          </operation>
+          <operation Id="8048e717-c8b4-48a7-b229-ee5b376d2ee0" name="void DestroyInstance" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d0b0161e-8b38-416d-a481-7753be76764a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4c09c1b4-5044-4d0b-939d-40e765fc3a74" name="Bullet.cpp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="959bf048-84ae-45cf-a15c-7b7213c997ae" />
+        <targetEnds>
+          <association Id="4d0090eb-45b1-41be-a2ff-cdf50a37ccb3" isDerived="false" sourceEndRoleName="Bullet.cpp" targetEndRoleName="Player.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9ec4ce4b-2254-48a4-9ca8-0e2b69facdab" LastKnownName="Player.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="da2c8817-f5ba-4e2f-9174-17c1e8127510" name="Bullet.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7624e47f-6f6d-4a78-95dc-c9b4aa6df8a4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="889e3e36-8318-41d6-8e05-57c2652c2120" name="Player.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7555e9f9-d92f-4cac-9719-6d304a7ebbdd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3aca4c92-b205-4f22-82df-f378834cc0a4" />
+          </association>
+          <association Id="e3cf6c14-cde8-4565-a6cf-64fb2d766134" isDerived="false" sourceEndRoleName="Bullet.cpp" targetEndRoleName="Collision.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0e194681-b1c4-4c9c-950b-bcb926433a22" LastKnownName="Collision.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d3f5d84b-2d45-4eae-b571-e0bb0dda2ef3" name="Bullet.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f0e08fdb-3120-487f-81b5-208ba5c3eaee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="343ae8c9-261f-46f8-97a8-f2077c0f638d" name="Collision.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8eb061ac-c748-492b-8b00-ba8f3044f161" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3fa36982-2487-44dc-9750-fc0acd1c6170" />
+          </association>
+          <association Id="d8acd8b9-daae-447a-8f2b-b8afeb0a8c4a" isDerived="false" sourceEndRoleName="Bullet.cpp" targetEndRoleName="map1.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="627d40f4-f7f5-402b-9575-47bb0e41370f" LastKnownName="map1.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="638b76b8-4dc3-4ee5-bbfd-bf52544fbcd1" name="Bullet.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c0b734cf-e24f-4730-9e64-3d11654f116b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6b9523a8-bc07-4ee9-a7df-60641a3e48a7" name="map1.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="91da838c-68b0-433f-a33e-7aa34e723d2e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a4b10964-d20e-48ee-97e5-3acb122bd81a" />
+          </association>
+          <association Id="04be2409-e247-4d19-83d4-58efdb4a0013" isDerived="false" sourceEndRoleName="Bullet.cpp" targetEndRoleName="Particles.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7c636b9e-72af-4dea-964f-bfbbfabea780" LastKnownName="Particles.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="934762ff-6143-4051-8324-96427a106722" name="Bullet.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d6d6077d-1016-4fd8-9087-e29fccab202c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="59ca7e67-3cf5-436e-86c9-ff62b6e401c7" name="Particles.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ec54057b-2f9e-44b4-86bc-1d0b1b2a8356" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="59954840-a00a-4272-9ba7-d94810a9420d" />
+          </association>
+          <association Id="bcd673ca-806d-4aaf-9979-2a78021244b2" isDerived="false" sourceEndRoleName="Bullet.cpp" targetEndRoleName="Globals" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6bd797f6-e20d-4341-b2ee-471a031e9dc2" LastKnownName="Globals" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="25e592ef-b923-4972-924a-576101ea5300" name="Bullet.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ef8d4c96-1cc8-403d-b0fd-98799097a596" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d3fc483b-747b-4fe8-90b7-1d67acdce0cc" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d2b5b8dd-e9d2-4af2-80c6-15891867719d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d785e2ce-83bc-4f0b-8e16-424f91f210f6" />
+          </association>
+          <association Id="25a40893-d8f2-4c33-bc97-7e97977d7589" isDerived="false" sourceEndRoleName="Bullet.cpp" targetEndRoleName="VectorMath" isLeaf="false" isAbstract="false">
+            <classMoniker Id="87290bff-3f06-45cd-8d28-4c47d17fd3a5" LastKnownName="VectorMath" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="61c9a2dc-ea74-4782-9e90-f187bba88ea9" name="Bullet.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="62c88380-622b-447e-9341-dc178fa54eaa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="270f0250-62bc-4edb-9ed0-93705213a8a3" name="VectorMath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3e49720e-6729-4b89-a5af-06240744b6a6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="97cbc3f6-8360-46e9-a41c-c83a046e3691" />
+          </association>
+          <association Id="c2f85172-2fba-47b6-b5f4-1a17760ae672" isDerived="false" sourceEndRoleName="Bullet.cpp" targetEndRoleName="bullet" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b83ae395-3cda-4d56-b480-e1e9f90cd14d" LastKnownName="bullet" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2bad1a06-6b42-497e-924e-b77a55120f89" name="Bullet.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf07d506-2b80-4cd4-9fa4-d790de3d62e3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4e4047f3-7fdc-4d5e-8e01-6ff8e7a4a561" name="bullet" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b22505f7-3bd8-4bfa-83a7-053d961ae288" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0bb66233-be9f-46e9-95cd-67c085f321c4" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="0a6406fb-7ca4-41e1-a75a-3d3eadaa5cc9" name="unsigned int uiBullet" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="16bdb2d5-6db2-4212-a23c-ed41dce9ce20" />
+          </property>
+          <property Id="31bd46f6-b7bd-4c4d-9e3d-8bd70797efc7" name="float dBulUVOffset" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="35afecfc-3fdc-4cae-9456-7c0dac2a7e25" />
+          </property>
+          <property Id="5f77858f-a737-4aa3-b06e-c769525a949f" name="std::vector &lt;bullet&gt; vBullets" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5693e8dc-ef40-46b8-9f1d-68a58eaf9f92" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="c57cb57d-b629-4720-87b7-21e8ff455475" name="void LoadBullets" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d93c002b-cf95-44f4-9168-9e13ca6b55a8" />
+          </operation>
+          <operation Id="0e1dc299-520b-4b41-8cf2-1b7702a33223" name="bullet CreateBullet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8f4d7707-2e4c-4a5a-a593-a07558c550c3" />
+          </operation>
+          <operation Id="e5332b6d-1326-4d5a-a524-ed3f3fc2b652" name="void DrawBullet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="52d5721c-af4c-4702-8be4-fb5e08345b85" />
+          </operation>
+          <operation Id="55672d46-9427-4726-9ef0-51ca9869cf0d" name="bullet UpdateBullet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2e052a85-a618-4e73-92ca-da5bdb0c73ec" />
+          </operation>
+          <operation Id="7cd6bafd-50ee-4d48-a654-46642522d99d" name="std::vector&lt;bullet&gt; UpdateBullets" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3d4cd190-2dba-410d-94cb-87ea9486b9e8" />
+          </operation>
+          <operation Id="e4fde6e0-8db3-4960-b503-9db282c3f448" name="void DestroyBullet" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="79094f28-d5bf-4cd5-9956-32b6cfca0514" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0e194681-b1c4-4c9c-950b-bcb926433a22" name="Collision.cpp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3f20b5ae-ef2b-46bc-b56c-824a804e38f7" />
+        <targetEnds>
+          <association Id="28eadfc1-8b77-43e8-8f5a-3bc92ba1b12c" isDerived="false" sourceEndRoleName="Collision.cpp" targetEndRoleName="Globals" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6bd797f6-e20d-4341-b2ee-471a031e9dc2" LastKnownName="Globals" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="482ee8fe-41a8-4ee8-95ad-0763093de659" name="Collision.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f67c8289-d75a-415e-883d-b15d2fe65c49" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5c6042f1-0368-4c88-a290-39fff7c01de1" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ed9512bb-42fb-4bf5-9f60-f64be982db76" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f64804a8-2741-4696-bb52-035614787200" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="93b349ca-00a2-477c-8c9f-f269355ed44c" name="int CheckBox" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cea016b0-4771-48a2-995e-c2313c3f8b52" />
+          </operation>
+          <operation Id="916149da-0510-4ebc-89fa-da9004fb84f4" name="bool CheckLine" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bc6c136f-4c70-4334-ad84-208b942bebe8" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bf7f6b40-1a9c-4be1-9bc1-aa02a9414e8d" name="FileManagement" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c51fbe51-2958-4fe4-83de-13558dc04069" />
+        <targetEnds>
+          <association Id="100364f3-5f7e-4156-955e-3248baba4e1d" isDerived="false" sourceEndRoleName="FileManagement" targetEndRoleName="Globals" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6bd797f6-e20d-4341-b2ee-471a031e9dc2" LastKnownName="Globals" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0c827b33-20c2-4e41-87dd-25942ed8ad09" name="FileManagement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7d2c1f15-dfac-45d4-8315-b47e1e1bb0da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="17efe4d9-80c8-41de-8266-49601780c570" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b30136b6-a90d-4da7-92b8-a3e1af60d92a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1c7d47c9-dfe3-475d-b1f3-c9adf6fb411c" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="8ecc14ed-bb0e-4d7d-b74b-d6f158d4da73" name="std::string toString" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e8eb717d-220c-4d14-b7d9-42210fa27f03" />
+          </operation>
+          <operation Id="f34e60a8-06fb-405c-81c7-a224550b4de1" name="void LoadHighscores" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d072b22c-b56f-4900-8e04-8dd771615e3c" />
+          </operation>
+          <operation Id="d45282b6-c881-4bd5-a67a-51874d521089" name="void SaveHighscores" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="df192bb1-08c7-4b5e-98ae-621b41319422" />
+          </operation>
+          <operation Id="1cb4f94f-d1a1-486f-a52d-401652aafa49" name="void LoadSettings" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="39e0f935-d508-4101-b165-88aff10aff8a" />
+          </operation>
+          <operation Id="718de8d0-b8af-44e3-9b74-03241b45d337" name="void SaveSettings" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e3a70338-3e23-4dc4-a5e0-bebe2062d21f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6bd797f6-e20d-4341-b2ee-471a031e9dc2" name="Globals" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="db5d8d0d-3a35-4dd1-9c63-a7b9430eeff1" />
+        <targetEnds>
+          <association Id="a8ee88b8-6f46-4863-9662-267a5b93118e" isDerived="false" sourceEndRoleName="Globals.cpp" targetEndRoleName="HighScores" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fe06006b-ff2f-4dfa-ad65-66d5f177ebbb" LastKnownName="HighScores" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b93a931e-9f6d-48b0-8193-befc6a2c6f76" name="Globals.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="53d1e703-42f3-4db2-b6f0-d6fd466c48c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f41934d8-5d85-4936-af28-2b88c8b938d8" name="HighScores" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3bf84d5c-eaef-44df-912a-272341dc0f51" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c2e47ca5-7c68-427a-88fc-7aab510524ad" />
+          </association>
+          <association Id="8d93c774-f2e3-4ba7-8091-6e6527265f68" isDerived="false" sourceEndRoleName="Globals" targetEndRoleName="main" isLeaf="false" isAbstract="false">
+            <classMoniker Id="5d7e671a-3271-4aa6-93f8-09ba5c1619bf" LastKnownName="main" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="62b02df8-c9ca-4b99-bc85-72cdead826df" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d157d9fa-067b-4068-a59c-f06d4c42295e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="184baa96-d301-49d3-bb4e-104368b56ee6" name="main" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bfca3a0d-b66f-4d53-bea4-63b605b31600" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d9509a70-d2e3-4e70-b704-e8c053a04a70" />
+          </association>
+          <association Id="f1117221-0d77-4ef5-b187-12a6908fe89a" isDerived="false" sourceEndRoleName="Globals" targetEndRoleName="FileManagement" isLeaf="false" isAbstract="false">
+            <classMoniker Id="bf7f6b40-1a9c-4be1-9bc1-aa02a9414e8d" LastKnownName="FileManagement" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d5dd7ca3-1f53-4767-b8cb-633ce0f4d172" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="141b6397-ed55-447e-b2f9-089ce5a6fcad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0059f962-ff0e-4996-bbe6-d4c941a904cf" name="FileManagement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1108b42f-5ca3-4c75-8a3f-2b2a8bff36fe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="edef17fd-387d-4a21-8e53-b927139dab1b" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="00c36b4e-8b69-42f1-90c9-73cca3366a52" name="bool bRunning" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="505ddf38-0db5-4b73-90a4-ea341a703987" />
+          </property>
+          <property Id="6248b3f0-6b83-4733-8e8d-00cddfdcd572" name="const int iScreenWidth" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c6d71907-02a0-474d-b34a-38deefffc900" />
+          </property>
+          <property Id="db2b2892-4680-48cc-a6fb-a4ccbd0f6740" name="const int iScreenHeight" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="47346997-b3b4-4f6a-8007-0ad49a6a0335" />
+          </property>
+          <property Id="58122897-18bd-4bad-9d3c-c368a4f93bdb" name="const int iScreenWidthHalf" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1717e63a-3b2c-415a-8f25-dd8e6add903d" />
+          </property>
+          <property Id="e3b9a76b-d0d8-4573-82a7-33c0880e36d3" name="const int iScreenHeightHalf" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bb7c5ea9-d30f-4491-9d95-26dd270036eb" />
+          </property>
+          <property Id="6f281ca7-ba70-4dc2-a238-cd558a08cdae" name="const int iMapWidth" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="48c82715-0466-40f1-8b62-5c117a019a0b" />
+          </property>
+          <property Id="51990c0e-92b2-4103-a3b9-0c7985d5cca7" name="const int iMapHeight" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="19856557-38f5-4b93-999f-d5d23fa80090" />
+          </property>
+          <property Id="6f262e9e-a709-4c56-8e4f-f22e7d0cc943" name="const float PI" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a97d2436-40c1-45fb-b039-f03c11cf956d" />
+          </property>
+          <property Id="1faeade0-96d1-4aa8-ab1a-41a5670a2275" name="int iDirection" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8b8ae5e0-ce97-4bcd-a3ac-16c3e9468c74" />
+          </property>
+          <property Id="f7576014-dd72-4a9d-a482-6a539c45f034" name="bool bGodMode" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4e06c154-e79e-4320-9884-a21d97106138" />
+          </property>
+          <property Id="8b8dc039-189e-4d50-bf75-dc5735e9bd85" name="int bChkMap" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c25de962-bd71-41d6-8c98-38f36a04c42d" />
+          </property>
+          <property Id="5248f6e3-88df-4860-a3f3-a88eb272d6b2" name="float dImage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fcc72a6e-9efb-4bf2-9e2d-d65ee604d8f5" />
+          </property>
+          <property Id="442f26fb-c3c9-4691-84b4-876f81761cd8" name="float dAnitimer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cf39b494-09c2-48b8-bec1-88bc1f74cceb" />
+          </property>
+          <property Id="75d8a3fd-b2b7-4c28-b0b2-edef129d0ea7" name="char buffer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <lowerValueInternal>
+              <literalString Id="7772f001-98c9-4585-9263-bac997edd761" name="Lower" value="60">
+                <elementDefinition Id="5919765a-01c5-47db-81c7-546fcf52642d" />
+              </literalString>
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString Id="9a4d23fe-d448-48e8-901b-7c4b370876e9" name="Upper" value="60">
+                <elementDefinition Id="69078a12-b62a-41fc-abd2-7bfd5eaaf084" />
+              </literalString>
+            </upperValueInternal>
+            <elementDefinition Id="6a1cc867-e8b7-441d-af91-af1a20c148b5" />
+          </property>
+          <property Id="3e00cfda-9533-429b-938b-2b65f19a3e55" name="bool usevariablemovement" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4b59a32e-d85d-4592-a408-4837bfbceb12" />
+          </property>
+          <property Id="ae9510fb-3177-4ff5-9ab3-ff81fbbb2cd3" name="bool bDebug" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0d06edf5-d462-44c1-9f23-141f1a7414f3" />
+          </property>
+          <property Id="bd9e9e29-69cd-427d-bb9c-a541f40c8547" name="float iBladesRot" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1deb32e1-a60a-4da0-93e9-3e210a0d8548" />
+          </property>
+          <property Id="53ec9bf7-b260-4b33-82f3-a0c943720d38" name="int iKills" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5bb792de-091d-4219-8399-9a4329f50e9b" />
+          </property>
+          <property Id="65b6f172-a89d-4fa9-b020-0a266d9b7820" name="int iMiss" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b8515aa8-e47e-40a5-b886-7c6130939167" />
+          </property>
+          <property Id="142ca29b-769b-4635-bf63-2a60f8ba1be3" name="int iHits" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="36ffd53d-fbbc-42a5-b3cc-d089d3dac99b" />
+          </property>
+          <property Id="7eb3c31c-e651-4fbf-af20-4d12f23ae450" name="GameState eCurrentState" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="15be55ce-ef0b-4c2d-b0ff-7d52a8685ca2" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="457a4ad5-df14-4742-8cf3-730ff9596249" name="void DrawInt" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="40b7ddc8-89f2-4b91-9b03-8cedb75f8dbb" />
+          </operation>
+          <operation Id="93f307f9-066c-4423-89c0-791c78828b65" name="void DrawImage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="198d59c7-1b6e-4eb8-8c63-5aca8b0b17ea" />
+          </operation>
+          <operation Id="1acd6b57-0659-4c65-9d4f-17cafe7275fb" name="void DrawImage" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0e9a3ab1-e187-41ce-9c84-b67af3fb6de1" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7a9c75b0-775e-4825-8aab-f87946194aca" name="overloaded" direction="In" isUnique="false">
+                  <elementDefinition Id="933d0d4e-aeb4-44ad-92db-997bf0247649" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="71330b77-f36b-4405-89a9-482859df0e47" name="int Choose" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5ff9c16f-0bb6-4924-b6b8-c3bf1c9a29ab" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="fe06006b-ff2f-4dfa-ad65-66d5f177ebbb" name="HighScores" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="79684696-20fc-49cd-aced-c7e70fe5ffc7" />
+        <targetEnds>
+          <association Id="a47ea897-7d4b-4888-949b-83d223b17d79" isDerived="false" sourceEndRoleName="HighScores" targetEndRoleName="Menus" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2ad57fd9-320f-42a5-9643-b268da01800f" LastKnownName="Menus" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3cb5ddbe-c230-426f-8435-200b762b3ec2" name="HighScores" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a17c7237-fbf7-45a2-ba0d-1f41a470efe7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="59f66c6a-ab00-4eef-bbaf-dc333a879ea4" name="Menus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ca87d97d-d260-4a6e-9758-9f449e3b0621" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="19d91d8e-a8d1-47d0-af34-14456c25ebec" />
+          </association>
+          <association Id="8ec4499a-1e95-4d19-83af-81e344194bde" isDerived="false" sourceEndRoleName="HighScores" targetEndRoleName="Globals" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6bd797f6-e20d-4341-b2ee-471a031e9dc2" LastKnownName="Globals" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c18eb460-cccc-4e82-be06-0412f5817320" name="HighScores" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ed37729a-a9ff-4daa-91ef-83115d64d087" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc25cc49-3081-4de1-b5ed-ef6f4aa01cd1" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a86fbf2c-6063-497e-9512-2c7ac596089a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="77074f07-8f2f-4483-806f-f6c1a2988220" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="08c2687f-7e42-40a6-97b7-d7e93646f243" name="std::vector &lt;ScoreTableInstance&gt; vHighScores;" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e3c0dffc-3c8d-4477-81fd-5c0814e98786" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="a6d3d1a1-2264-4d88-a832-2696ed3af2ca" name="bool compareKills" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="42b82dfc-8409-4fc3-9ac0-077f6ddce307" />
+          </operation>
+          <operation Id="ef580bb2-9071-43e1-b9e0-3f13b76d2bfc" name="void AddHighscore" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="28241152-400b-4763-90ff-6bf4f0da173c" />
+          </operation>
+          <operation Id="4c09a645-125a-4834-a619-681e032a042f" name="void DrawHighscores" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3026256e-887b-4305-a449-8d93dd5260f5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5d7e671a-3271-4aa6-93f8-09ba5c1619bf" name="main" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d0a36f1e-be2f-413d-86fe-cb98ddc8dc17" />
+        <targetEnds>
+          <association Id="9a80cf03-713a-4815-86b4-924c312a3e4e" isDerived="false" sourceEndRoleName="main" targetEndRoleName="Globals" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6bd797f6-e20d-4341-b2ee-471a031e9dc2" LastKnownName="Globals" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95eaacbb-50ea-41b1-b00d-e632951285db" name="main" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7427e15b-0191-4d15-a1f7-3aa0a0ef7f55" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="47cdc236-dc11-42f4-94be-548655a546ab" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="81374924-4cda-4e86-b9c3-625fa5123ced" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e4e672da-0cb0-4173-9f3d-b5f33077854d" />
+          </association>
+          <association Id="859c0134-4e22-4400-a1f9-85e31e97d2ce" isDerived="false" sourceEndRoleName="main" targetEndRoleName="GameStates" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="633b02fd-871f-42d4-8ba5-ee89186596ea" LastKnownName="GameStates" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab61eab9-fc7d-479f-8339-5c00b25ee9b6" name="main" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="abfed1db-0e85-44ea-ae04-03762981041f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="451253fc-0324-4a4a-a827-29e419b168d4" name="GameStates" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a15bf0f0-dbd3-4bd6-97f5-951028d87bfe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="99f2a57b-c600-4201-b769-5ff24d22d55e" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="d8f62e4f-b9fb-4398-8e70-468f1e3dc2da" name="int main" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c6ca35f0-9e8e-4796-8c29-08c360f3921d" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="627d40f4-f7f5-402b-9575-47bb0e41370f" name="map1.cpp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ac63fd61-eebb-4047-baaa-b34820ecbcc4" />
+        <ownedAttributesInternal>
+          <property Id="4551a067-cf86-41ee-9361-7312a806f7ae" name="unsigned int uiMap1" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="14d62806-e2c0-4449-8b4f-cd138057f269" />
+          </property>
+          <property Id="0a630beb-586b-45e5-89f4-f55d8c558f0d" name="unsigned int uiMap1Wall" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ea6206c3-8936-4c09-b50f-6b09cec5087c" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="0756c4b3-da31-4d3d-a7cc-ea9e2a6fd624" name="void LoadMap" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="845242f0-9810-4f54-9505-e266c68853ac" />
+          </operation>
+          <operation Id="50ad3f1c-0427-40f8-abf4-fad9c76ae285" name="int CheckMap" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f305f84a-b7f9-4aa3-9492-064d29e5cbb2" />
+          </operation>
+          <operation Id="e0670493-9254-482d-8ab2-58884174a101" name="bool CheckMapLines" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="40a4d1a2-6958-4e75-a079-1958af9879f3" />
+          </operation>
+          <operation Id="b2485858-7f0b-4e52-bdaf-bb6dd700c204" name="void CheckNodes" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a7436cd1-9238-4583-9600-9405b9ac58bd" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2ad57fd9-320f-42a5-9643-b268da01800f" name="Menus" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="06e89161-3b5a-4c83-8588-208b7f49b64b" />
+        <targetEnds>
+          <association Id="3f811083-6cc0-4650-b1eb-cb9cbb89e146" isDerived="false" sourceEndRoleName="Menus" targetEndRoleName="HighScores" isLeaf="false" isAbstract="false">
+            <classMoniker Id="fe06006b-ff2f-4dfa-ad65-66d5f177ebbb" LastKnownName="HighScores" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d7a76843-522f-43db-8530-df3a88c5315a" name="Menus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="32bf3f17-2185-407a-bbf3-8c10e936e1cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="66ce6e03-bb4a-47ae-a86a-3e57f9d4a597" name="HighScores" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c2a7baac-17f2-4072-bc08-bc50e7f4e6c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="baf9cc73-a578-4052-bb6a-a18ad17e9fab" />
+          </association>
+          <association Id="f40e036c-26ae-4bd5-aa7a-ee108a03581d" isDerived="false" sourceEndRoleName="Menus" targetEndRoleName="AI.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b9a3a0f6-28e5-4f0d-be3e-1a9d3c6610e6" LastKnownName="AI.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b841a821-ffc5-422a-b736-3cb5cb5dfe3c" name="Menus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1a0b45df-ce45-42e2-bae5-f0ba6b018f9d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d57616c6-155e-44e4-8b84-1c67bddc1427" name="AI.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="70f06c1d-c74f-4130-9f26-c3a122f95634" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4017945a-bcac-46de-8cc8-273d46815a90" />
+          </association>
+          <association Id="e6f1ea70-5aef-4452-8451-8b0d47c442a0" isDerived="false" sourceEndRoleName="Menus" targetEndRoleName="Player.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9ec4ce4b-2254-48a4-9ca8-0e2b69facdab" LastKnownName="Player.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0e6c775c-9b8d-4cbd-96eb-813892d1b8b8" name="Menus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="935a4266-baf6-4696-8cee-374c8f60487b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5ebd1c30-8884-4c89-a8d9-1bd573881aa6" name="Player.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="23e88ed5-badb-4976-a0e6-d919e6a1e393" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="537f50e5-85ce-49eb-8dff-6623039d3d2d" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="a8426667-a669-4186-bdbd-881a186d8f00" name="dvecx dvecy" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4b3de669-694a-44a3-81fe-e70482c9101d" />
+          </property>
+          <property Id="1ec3f3d6-3843-4f67-8b95-c1bce2eb0084" name="MenuCheck" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6e11b216-ed0c-4625-95aa-3ef1da39b9ad" />
+          </property>
+          <property Id="33e63bf8-5a15-4356-8d4a-9c101c0885b7" name="unsigned int uibackground" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e5dc9e77-0d96-4718-98ea-44e40afd66d3" />
+          </property>
+          <property Id="dbe0c676-cf76-4240-8db3-99f923bba38b" name="unsigned int uiBackground2" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d5428413-efdd-4a21-9a9f-ddd357fc92af" />
+          </property>
+          <property Id="7b54ddb8-1e64-4b38-919c-db915977a61a" name="unsigned int uiBar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d98ff0f1-aa53-432c-b1bc-55298ba9be6c" />
+          </property>
+          <property Id="612e6711-c9a0-4fef-b1ae-366041b340b6" name="unsigned int uiCustomize" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7dcb4194-71cd-4898-8af6-15eec9be8bd2" />
+          </property>
+          <property Id="6ceb52ca-6104-4c56-a653-fea3b9f9ad19" name="unsigned int uiHelp" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c4e858fb-1a32-4109-a2e2-e48247839042" />
+          </property>
+          <property Id="9c655bb2-0260-4e4d-8692-71d5f2a8dae6" name="unsigned int uiHelpS" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c4dab2b2-0a36-4090-b4ac-095aa68ecb63" />
+          </property>
+          <property Id="106723cf-e2a6-4abd-b968-48e4487cc16f" name="unsigned int uiHelps2" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8148eea5-7c8d-4510-9c1c-31fd104a6a45" />
+          </property>
+          <property Id="6b1f6b8c-852a-43b9-b0de-abc8c06f28d8" name="unsigned int uiHex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="26771c94-89c6-4002-a099-086e1da91689" />
+          </property>
+          <property Id="782b0c42-6a98-4e03-b4c7-dd11d3fe1a62" name="unsigned int uiHighscores" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2cda32e8-c9a6-41fe-8cae-5de12212a45c" />
+          </property>
+          <property Id="09e0d8bf-a539-43fb-914e-edc72df52d6d" name="unsigned int uiHud" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c003ab80-a068-4a99-a644-996d8cfe4f37" />
+          </property>
+          <property Id="8731ebd5-84f9-4b59-a79e-e92bb8388496" name="unsigned int uiLogo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="80e1bdd1-e2ae-4f60-bd9f-89873dec75a5" />
+          </property>
+          <property Id="46b36ec1-cb0b-4a69-bdd2-165bfa6bf887" name="unsigned int uiLogoAIE" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5463329b-37f9-43ac-8417-72a419acd2d7" />
+          </property>
+          <property Id="0088b025-9665-4d0a-bd41-60aa602fd355" name="unsigned int uiOptions" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="44df7828-1f9d-4dec-90a6-2c2232753185" />
+          </property>
+          <property Id="806370bd-53ba-4b25-8649-f5ddcfc8d4f1" name="unsigned int uiSelected" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5c36b44b-a9b3-4c80-a27e-0fe3dacdd021" />
+          </property>
+          <property Id="a3aea629-ac48-45ee-b28f-bd328116f48c" name="unsigned int uiSlider" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="26356c0c-9019-44c8-b052-a48c5ac3a2ca" />
+          </property>
+          <property Id="d8592cfc-abb2-4669-b411-fdbc50e3cc2d" name="unsigned int uiSurvival" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2183d588-9115-43da-b907-89b3d3ee15be" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="a0c12838-aec3-4a6a-a02b-ca1d3cf8bc2d" name="bool CheckMouse" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1321f4a2-e534-49c4-8f06-5491f540aba8" />
+          </operation>
+          <operation Id="84f2438e-49ea-4367-a6b3-d1e8abdd24a1" name="DestroyMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4df8aadd-c959-478f-92bb-8f7ef4cb332b" />
+          </operation>
+          <operation Id="9ecab362-2bf7-455b-8bac-2b48e3aa9ac7" name="DrawCustomizeMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7e5e38dd-7369-45e4-ab1e-dacbfbe411cd" />
+          </operation>
+          <operation Id="bcf64c54-f380-4f64-a683-d280c06191af" name="DrawGameMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="29b8f6f1-50f0-4127-a413-e62447913399" />
+          </operation>
+          <operation Id="9851ad56-00a5-4395-85d4-72cc48c67b48" name="DrawGunSelectMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="86c1de9e-3160-4faf-afc2-a3cf1fff99b3" />
+          </operation>
+          <operation Id="d5404953-2e37-4812-aff6-863e3a79039a" name="DrawHelpMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d784869d-203a-4914-8855-3651ea5cc407" />
+          </operation>
+          <operation Id="84f8b1e7-5589-4367-96fb-7d176b338333" name="DrawHelpMenu2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="54063c0a-74d3-47af-b816-e70403339964" />
+          </operation>
+          <operation Id="81241bd2-6e16-42c4-9f8f-1b993ca11bc0" name="DrawHighscoresMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4f56e037-efd0-45b4-b54e-25f314118ce6" />
+          </operation>
+          <operation Id="e7b0e7b5-f13b-43cc-b638-e46cdc6abf2d" name="DrawMainMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="339673d6-4621-4784-b4d8-c9c99d7cc8fe" />
+          </operation>
+          <operation Id="ecfc0e28-75a5-4c6a-a5b6-9ad8a51c1f09" name="DrawOptionsMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9c9f35e9-4866-48bd-9c7e-8432c0350825" />
+          </operation>
+          <operation Id="3306e6bd-af00-4440-ab4e-168b4abb6fa8" name="DrawPlayerSelectMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="60336eff-a7e2-47c9-8c90-a9344a7ac419" />
+          </operation>
+          <operation Id="1291fc5f-0bf4-4cab-a7c2-448c1063f7d2" name="DrawSplashScreen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="237b79bb-2e2c-49a2-856a-c96011930054" />
+          </operation>
+          <operation Id="2ba04f6e-0e8e-49c9-9e00-90599116819b" name="LoadMenu" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="571bc9f1-8de0-48fd-b63b-028353eaaf28" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7c636b9e-72af-4dea-964f-bfbbfabea780" name="Particles.cpp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8f00055c-291c-466a-80b8-043225a85305" />
+        <targetEnds>
+          <association Id="0a8706bc-738b-440c-ba79-c6ef217dfc73" isDerived="false" sourceEndRoleName="Particles.cpp" targetEndRoleName="Collision.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0e194681-b1c4-4c9c-950b-bcb926433a22" LastKnownName="Collision.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4dfc10f6-57ef-4ea3-acca-7a8f4c06f6da" name="Particles.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="47f3b36b-7925-48a6-b834-df4de5ef811d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e1f9af44-9eda-4e70-861e-ae341beffa6d" name="Collision.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ceab1cca-0458-4c52-9c3f-e8e70d0f7b6e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="53eb9c08-cd79-4c20-a958-16dc8bbee96b" />
+          </association>
+          <association Id="a450ed2f-c513-41a1-8405-afa4b2d2add2" isDerived="false" sourceEndRoleName="Particles.cpp" targetEndRoleName="Globals" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6bd797f6-e20d-4341-b2ee-471a031e9dc2" LastKnownName="Globals" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="30f725d6-cede-4450-933f-cdc3635ecb22" name="Particles.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bce7524f-c817-488d-8948-a457187355d3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ddf728c5-5ff5-4e67-92be-a43dc6a3da5c" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ccdb7385-7be2-4d45-aff9-07fca88e1730" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="89ec62a6-a582-49ee-b823-3d2da43346a2" />
+          </association>
+          <association Id="86b96266-191e-4abc-80d1-38024684af3b" isDerived="false" sourceEndRoleName="Particles.cpp" targetEndRoleName="particle" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3290dfd1-7e5a-40ea-ab2f-50abe23a9e5d" LastKnownName="particle" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6852c192-6426-4db7-817f-4ce3e0c7e305" name="Particles.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="230a6357-4109-4db7-bcf1-d57835faf870" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f76c04d3-47f4-44e0-beb4-562aedef22c1" name="particle" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b03f3355-b637-4314-939c-0e4af66df06a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bfd76198-502a-484b-9ea7-31f01f9915dc" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="3eecc3e7-6edd-4b4a-833c-1a1be35a677f" name="unsigned int uiParticlesAmount" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="92caedc3-ee95-43c8-8ebe-0f707bfe6fe8" />
+          </property>
+          <property Id="65219471-9690-4f92-91ea-2e4237a0a5a9" name="unsigned int uiBlood" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b9b4dafe-60b2-4480-a0c0-337340721664" />
+          </property>
+          <property Id="24841937-5294-425e-9f57-3774fba96808" name="unsigned int uiSpark" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5bff429a-58a8-465e-8e2f-e8310d085f20" />
+          </property>
+          <property Id="86f0cf87-deae-41e7-b386-543f50f95f97" name="unsigned int uiSmoke" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="70401840-6588-41ea-aed8-8ac249ff0e01" />
+          </property>
+          <property Id="7b3b05ea-0484-42ef-809d-f37a0d048bb9" name="unsigned int uiExplosions" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c28d457e-bd4e-481a-ac57-3d2c40a293a7" />
+          </property>
+          <property Id="3150cbf0-4627-4dac-a9aa-85b32e92af3d" name="std::vector &lt;particle&gt; vParticles" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2e4ab396-7a0f-45f3-8eba-06d08d9ad8be" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="19631922-6c0d-4e10-9b2f-b5c53e46369f" name="void LoadParticles" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9151d133-d49c-4291-8555-ee80f5629ced" />
+          </operation>
+          <operation Id="8096b01e-31b1-4a68-9182-47ea878ecd66" name="particle CreateParticles" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="054d2c0f-569a-4c51-87bb-661709cbbe2a" />
+          </operation>
+          <operation Id="6f40c5ae-61e0-440e-9a64-4a1afa9a75c4" name="particle UpdateParticle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3349e43b-d736-4d21-a689-c3290602d1c5" />
+          </operation>
+          <operation Id="e5a55009-bc4d-439c-aff0-8a6015c888b9" name="std::vector&lt;particle&gt; UpdateParticles" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="54964087-dd6f-451f-a42d-b0cc9e6d35ed" />
+          </operation>
+          <operation Id="30fbb3ad-4a8d-43ab-b372-543696029209" name="void DestroyParticle" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5e39490f-9503-4ddb-b9eb-d85e243d33c2" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ff113b59-ed25-4318-a1fb-f439b7ce259d" name="Pickups.cpp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b9bda2f3-3f57-48fe-aa9f-eb1a73bc9f20" />
+        <targetEnds>
+          <association Id="d762ba47-4ae8-4ee5-8c96-b108470965b5" isDerived="false" sourceEndRoleName="Pickups.cpp" targetEndRoleName="Player.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9ec4ce4b-2254-48a4-9ca8-0e2b69facdab" LastKnownName="Player.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9c520c5-741b-4e66-be10-d385196ae832" name="Pickups.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ad6ed431-b4b0-4405-b268-4a4a12083546" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="03bfd6f9-cffe-4c49-8d15-24091e61f7fd" name="Player.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0d0d1273-e488-4553-9bc2-a582d71db786" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f889f200-b991-4835-84af-2c1d292daab5" />
+          </association>
+          <association Id="1042190a-7142-4f6e-ab57-876a5b47ca20" isDerived="false" sourceEndRoleName="Pickups.cpp" targetEndRoleName="Collision.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="0e194681-b1c4-4c9c-950b-bcb926433a22" LastKnownName="Collision.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b8084ee4-15f1-40b3-a573-06117e5bb120" name="Pickups.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="009f6fae-6dad-425b-accc-10b79d764dd1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d391f61-4551-4757-9b92-70d9d12504fa" name="Collision.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4f9cbf77-dd67-46ee-8ad5-e0ecffb40d55" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a86a2a23-1074-4276-b3d3-1b78b7174ff6" />
+          </association>
+          <association Id="14610c19-e33c-49fc-8508-7b7a9c1a5d4d" isDerived="false" sourceEndRoleName="Pickups.cpp" targetEndRoleName="sItem" isLeaf="false" isAbstract="false">
+            <classMoniker Id="5dcbf306-d488-403f-a142-0c26ec5ef781" LastKnownName="sItem" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="679933cf-d076-4615-913d-9b02e0a8dad2" name="Pickups.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="460b0ae0-3adf-4b24-8218-19cd9fe86799" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="612d7270-742b-4d4e-badf-0e7cb989d51e" name="sItem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9cd3c1a0-8ce2-4235-a69a-7854e4e556a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="52b09fc1-8895-4e24-8b28-8083072454f0" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="78e64b37-12c0-4b55-ba74-6b360f37cff1" name="unsigned int iPickups" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3d183274-3f80-4529-ba03-375a1b175997" />
+          </property>
+          <property Id="5971982c-9e8b-4a2c-b6cf-a722495b82ee" name="unsigned int uiHealth" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="519a4879-2f91-4296-8494-2d607dd12345" />
+          </property>
+          <property Id="53e7fb3f-30d8-4c5e-9f03-3bfef6049f62" name="unsigned int uiAmmo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a866d227-4b7c-428a-97c7-4ffc276e4956" />
+          </property>
+          <property Id="0c3575a2-64e6-467d-8c02-40c5e7679343" name="unsigned int uiFloorItems" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6a9d285a-2fac-47bd-918a-599dbefeafb0" />
+          </property>
+          <property Id="1f2c0232-eac6-4a3f-8c6d-ac33b19d5da8" name="std::vector &lt;sItem&gt; vItems" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="053fcf2d-2720-4b97-9208-23bd58cd865d" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="599f57d6-b5e8-48e8-81eb-8e4771dcb9f1" name="sItem CreateItem" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4abf4a90-eb79-4e54-9699-6bb8ccfbb517" />
+          </operation>
+          <operation Id="630ae733-1501-4c08-b920-d050fb3d32f2" name="void CreateItems" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="aabf1f3d-4d64-413c-aef3-eaa09717a29e" />
+          </operation>
+          <operation Id="315e7e64-d79d-4cf0-9097-396e81a11a85" name="void DrawItems" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cbce6fdf-afb8-4863-ba65-79c0f1e8739c" />
+          </operation>
+          <operation Id="95b2494b-5dd3-4133-ba7c-4b44834691ef" name="void PickupItems" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="014bca39-a7a6-4362-94a2-ce96ef3050e8" />
+          </operation>
+          <operation Id="97efcae7-2967-4503-a70a-9f3ce14627c0" name="void DestroyPickups" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="95340ee8-cf65-4fc6-a809-3ea9782a7fa1" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9ec4ce4b-2254-48a4-9ca8-0e2b69facdab" name="Player.cpp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c79ae245-c27c-4843-912e-0f58a4b59a3e" />
+        <targetEnds>
+          <association Id="70f65cfc-e623-4103-9358-6c0f9792232e" isDerived="false" sourceEndRoleName="Player.cpp" targetEndRoleName="map1.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="627d40f4-f7f5-402b-9575-47bb0e41370f" LastKnownName="map1.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e0ebf456-5dc6-4e1a-90d9-b8bc8ed7b8bb" name="Player.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c6180722-e463-4bb3-9f36-566ee6f73122" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b310c3b7-7e76-4092-93e5-37aff92a4a03" name="map1.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dd33104c-11ab-4742-a3f1-dc63da14e64c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eb78db4b-a65c-419d-bb18-863d1f846d96" />
+          </association>
+          <association Id="f541fad2-2860-4b8f-bf3b-0b7d78f8d902" isDerived="false" sourceEndRoleName="Player.cpp" targetEndRoleName="Globals" isLeaf="false" isAbstract="false">
+            <classMoniker Id="6bd797f6-e20d-4341-b2ee-471a031e9dc2" LastKnownName="Globals" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="28f6a11d-40c8-4dec-ac83-b6a2fa53488f" name="Player.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="065218e4-f3dc-48cd-baf3-34aca876138a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f85c67c-73a8-4aa5-abb1-30cc4cde1ca4" name="Globals" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9d70a8cc-d490-48cc-9a61-edb46299bf00" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3156b0f7-b890-49cb-bed0-87a76762f769" />
+          </association>
+          <association Id="cf9ef04b-b2b2-41a4-8500-95ab755f0661" isDerived="false" sourceEndRoleName="Player.cpp" targetEndRoleName="Weapon.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e3510a65-8489-4c91-86e9-3ea229dced1f" LastKnownName="Weapon.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9fdca5f8-3dcc-42bc-9ac4-7578a17a7c3b" name="Player.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f815b8e1-7a2f-4ce2-abb3-9c7bb372bdad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="173b2dec-1206-4ac4-ab46-13bc61981844" name="Weapon.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="181b633c-7369-4a2a-b4e8-1a8a54793819" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="da6469bb-6472-4741-af85-0ca49cf1e0ea" />
+          </association>
+          <association Id="170afb14-0819-4aad-bcd9-1fec842826e9" isDerived="false" sourceEndRoleName="Player.cpp" targetEndRoleName="VectorMath" isLeaf="false" isAbstract="false">
+            <classMoniker Id="87290bff-3f06-45cd-8d28-4c47d17fd3a5" LastKnownName="VectorMath" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="387a5a42-5d4f-4e5e-8be5-5aac248342ac" name="Player.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="90d113dd-a158-459c-9f1d-1acf35ff5eb3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b83e45f9-b988-43be-bae0-95067f4fd92c" name="VectorMath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d7b38d98-384a-4aa8-be96-89b45645c399" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ccf54bfa-fa57-4814-a297-010a10e4cd21" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="43055fad-605d-4f2a-9d69-bc4ec4c753ac" name="const double dMaxEnergy" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fdee86f6-6a27-47df-a518-84927cd85884" />
+          </property>
+          <property Id="210000d4-98a7-4cd4-93fe-06d52e29b843" name="double dEnergy" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8df588a3-46fe-4741-8e71-6f4103280c42" />
+          </property>
+          <property Id="3dbcfed2-0d61-4993-8740-776f504bd3ea" name="const double iPlayerHealthNormal" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="462e1b0c-bb6f-4c62-8c20-c6c65108484d" />
+          </property>
+          <property Id="ef934084-6915-4002-9633-9babbfd1466b" name="int iPlayerHealth" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dc9d3905-2592-478e-bdb7-b78383d0bf0a" />
+          </property>
+          <property Id="f9d96a4a-ac25-472c-a28d-0dd70958edef" name="const float dSpeedMax" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0f667000-5692-4ff3-acd4-67f7db6f1d5b" />
+          </property>
+          <property Id="759a303a-aea9-4ffd-b284-0286c23b3db6" name="float fSpeed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ed5f597a-6541-40c5-8fb9-e63298d86ab3" />
+          </property>
+          <property Id="1acc5562-1476-42a2-843b-5969b4b49dcd" name="int iRunning" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="53d4c6cc-04c8-4db6-834c-5da250fb6cb2" />
+          </property>
+          <property Id="d63621d1-2687-4f8e-88f5-e17fbbd1fd46" name="double dDegradeTimer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5dc59bf5-6aa1-45dd-9bad-2b7c535b7fa2" />
+          </property>
+          <property Id="52d5824a-eb87-43c1-904f-19e626bdecba" name="unsigned int sPlayerHeads" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5f8c7fbc-da43-4e69-a6eb-af1872965bc5" />
+          </property>
+          <property Id="0cb87ede-674c-4e4e-bab1-ce3ae30965ec" name="unsigned int sPlayerBodys" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="717acbed-0ca7-4849-a091-87ce7b028339" />
+          </property>
+          <property Id="177d5f00-a66f-4075-b8dc-38863ac99e34" name="unsigned int sPlayerLegs" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e4de3c46-0fa4-478a-bf2f-65ae18efd3e7" />
+          </property>
+          <property Id="aa542539-7654-4fad-adb3-d6fc228c6d5c" name="sUVAnimation sUVPlayerHeads" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b8113541-38e3-40ae-8413-92d13cc20509" />
+          </property>
+          <property Id="9c804bb2-be6c-4f72-9e3b-5384831ced4c" name="sUVAnimation sUVPlayerBodys" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6ebb72bc-d80c-4757-acf8-9f8bdc9cec6c" />
+          </property>
+          <property Id="06a71891-709f-426f-8abc-dfe40045070d" name="sUVAnimation sUVPlayerLegs" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="de961f8e-e970-43c3-afb0-6c1c411308ec" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="122970bf-0e5c-4fe8-885e-a5b82288d479" name="void LoadPlayer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="20833dff-f544-4f69-8186-f8ebdffe2f6a" />
+          </operation>
+          <operation Id="09c24a25-af99-4cd1-95b1-4db244e76dab" name="int GetPlayerPartID" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b896d0de-b42d-495a-a1e6-773d01c86f69" />
+          </operation>
+          <operation Id="4d41117e-9d24-4432-b501-a148b1aa5ee3" name="void RollPlayerPart" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="913928a3-c791-44fc-9a15-fff41be64237" />
+          </operation>
+          <operation Id="8f203580-4a31-4048-a12f-80755fc8a773" name="void SetPlayerPartByID" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5c9f68ca-3b48-4692-9be3-09a24c336274" />
+          </operation>
+          <operation Id="d6f2ad37-634b-44dd-a206-25f00a843445" name="void DrawPlayer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eb7aecd7-cad1-46bb-931b-ada69c1d47ad" />
+          </operation>
+          <operation Id="5df995bc-e399-4170-860d-14adc0b1c995" name="void DrawHudPlayer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c38beef5-2816-4b66-b312-ff55faded460" />
+          </operation>
+          <operation Id="f8718022-6ee5-41c2-b912-d94af7d220fd" name="void MovementPlayer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2a2a8e10-dd2a-478b-8521-a95a7e48f8db" />
+          </operation>
+          <operation Id="b427e35a-06d6-4bee-91b2-b95e7c3ae57d" name="void DestroyPlayer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="03828167-d470-4a4c-8e1b-b0026051948e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="87290bff-3f06-45cd-8d28-4c47d17fd3a5" name="VectorMath" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c1af3667-6a74-4409-85ce-f48dc5a1df0b" />
+        <ownedOperationsInternal>
+          <operation Id="c527316e-fa7e-4269-bffc-0065b10eb601" name="void ScaleP" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ad513f69-f6cf-4396-aa58-df7a73ed3247" />
+          </operation>
+          <operation Id="546ff07b-4bc8-4f4f-94d8-e73ae383725c" name="float LargerNum" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c10887b1-c1f5-49bb-9ffa-a5c807eebd09" />
+          </operation>
+          <operation Id="828e80a8-c254-40b5-8c9d-d10cb8e5e442" name="float SmallerNum" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="15f916d3-338d-4af7-bbde-3daa8f0037b5" />
+          </operation>
+          <operation Id="08a82351-c977-4dd8-9804-7b344527db80" name="float Difference" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="15635a81-3feb-49dc-9e7e-0bc215a3e7ab" />
+          </operation>
+          <operation Id="e865ec33-6716-43ff-8650-e81b22801eec" name="void Rotate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c11ea674-45a5-4ac3-848f-0f330ead1937" />
+          </operation>
+          <operation Id="e2908da0-8b2b-4f3e-a918-a720ecb9c88e" name="void Normalize" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="eb58e025-dd86-4246-95c2-1d5b8ee7ee8d" />
+          </operation>
+          <operation Id="99a7f8a7-e384-4f50-ae05-32f1018f0093" name="float Length" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2f4b8183-de6a-4052-9480-d005d37eca9e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e3510a65-8489-4c91-86e9-3ea229dced1f" name="Weapon.cpp" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a18f1c87-4612-47d0-874d-60d2430dab62" />
+        <targetEnds>
+          <association Id="fcdc62b3-fcca-4ec3-87b8-a8ae6993be2b" isDerived="false" sourceEndRoleName="Weapon.cpp" targetEndRoleName="Bullet.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4c09c1b4-5044-4d0b-939d-40e765fc3a74" LastKnownName="Bullet.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="168e99c8-7d4f-42a8-b815-cbfc61b56019" name="Weapon.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5f6650e9-0bf1-4334-bc5d-42030522f52b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0b6ed1f5-e25a-41ee-92f5-23c29e659053" name="Bullet.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ba9b085c-018d-4b65-928c-45b0e8f5af52" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3df87bd8-8a1a-413b-895f-d5aee8bb62a4" />
+          </association>
+          <association Id="83bd4cdd-98eb-44f9-a81e-71ccd9d741b1" isDerived="false" sourceEndRoleName="Weapon.cpp" targetEndRoleName="Particles.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7c636b9e-72af-4dea-964f-bfbbfabea780" LastKnownName="Particles.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b58e5c9c-78e0-4ed9-8940-c7d2160ef7bc" name="Weapon.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3c4bd0f7-70a3-43dd-ade0-728da840fc23" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2a5206cf-d0f7-432d-b7a9-f62bac55708c" name="Particles.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2d7deece-779e-475d-81a9-b414bb8f4f55" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1f80fdc1-612a-42b2-99bf-2989b5f8b42c" />
+          </association>
+          <association Id="23c24c02-d3d6-4d01-ad82-9c167b374989" isDerived="false" sourceEndRoleName="Weapon.cpp" targetEndRoleName="Player.cpp" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9ec4ce4b-2254-48a4-9ca8-0e2b69facdab" LastKnownName="Player.cpp" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ad8cc77e-b3db-45a5-8539-a35224e69303" name="Weapon.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3510905b-822f-4098-a568-faa6d9745988" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2806a28a-ca92-41a4-9266-b27d35a21c66" name="Player.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8682aafb-c743-4840-9508-4019eb9a394d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8fed8327-39ea-4c07-a2bb-c7ec3c4fb48c" />
+          </association>
+          <association Id="7b587c02-83aa-4e48-842f-777e1554bdfd" isDerived="false" sourceEndRoleName="Weapon.cpp" targetEndRoleName="VectorMath" isLeaf="false" isAbstract="false">
+            <classMoniker Id="87290bff-3f06-45cd-8d28-4c47d17fd3a5" LastKnownName="VectorMath" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5487d51-bf26-4fd0-9d8b-cf8ef959b76a" name="Weapon.cpp" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c79aced5-a2d9-464b-bc67-822e668e45d1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5c0bb068-c0d7-4436-b0f6-51c047c8e061" name="VectorMath" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e67d172d-a4e3-44d2-83df-05bee70ac79f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="88288ba9-631d-47ab-a694-0b9941d31500" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="4957e71e-88ae-4f56-aa65-eb926542f7ac" name="unsigned int sWeapons" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7be02ccc-dcd9-4835-b503-d8ec587b0357" />
+          </property>
+          <property Id="58b07cf0-73e5-440d-ad06-29d834df3e71" name="double dWeaponOffset" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="883404c1-0633-4092-9c0e-a2ab5130ac71" />
+          </property>
+          <property Id="33313937-65f2-4146-b72f-d46548020647" name="int iDamageOffset" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="92a1d24e-2cb5-4003-964c-2ef48315e361" />
+          </property>
+          <property Id="df3d3d29-8451-4449-87ca-79d5d82e1b93" name="double ShootVar" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9f2985f5-d101-45e2-b09a-ab81077e9cb1" />
+          </property>
+          <property Id="9a1bd1a1-c893-476c-ba4a-e2b083f246de" name="double ReloadTimer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3b540efd-7ad5-452d-bbf2-75ebc7062bf8" />
+          </property>
+          <property Id="fe4e18fb-7458-4633-b8b0-ae9647105121" name="int KeyCheck" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c71f5253-baed-4fe4-9d25-9c00b20c639d" />
+          </property>
+          <property Id="e5fe3de3-abfb-4b0e-99a6-9d4bf0c02261" name="struct sWeapon" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d4208012-a49a-4aa8-be78-ad6cb0bf3e59" />
+          </property>
+          <property Id="2d3d3d48-b702-4c12-8c20-3814b8f9f281" name="sWeapon sGunLMG" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f2d3b848-7292-4258-8604-b2c3a9139fa8" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d0a0c371-d0e7-438d-90df-757f28e71659" name="int GetWeaponID" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="16f59f6b-718f-45d2-ac70-8a8c5930fc2c" />
+          </operation>
+          <operation Id="cf57241e-7929-481c-8fe2-09eeeff4da99" name="void SetWeaponByID" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8d726325-2881-45c7-bb67-5e85fa36bcea" />
+          </operation>
+          <operation Id="e989c318-0752-4ffb-98a8-099fcf11a2bf" name="void SetupWeapon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1a599f62-5207-4913-9166-f0b3dc8348d6" />
+          </operation>
+          <operation Id="0f9d53ae-7862-45c7-9c72-dd0def1152b5" name="void ResetWeapons" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="25d8188b-2b4b-4e89-9de2-e668d3d55332" />
+          </operation>
+          <operation Id="88f82c0d-bf61-43a7-a1ff-ce52555c930f" name="void LoadWeapons" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="dab640f0-0854-42bc-bef8-23336f06942b" />
+          </operation>
+          <operation Id="fd12b681-d44c-4d8c-8235-20f11b07731a" name="void DrawWeapon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="17f3e22f-807a-48a2-8857-70309a240b98" />
+          </operation>
+          <operation Id="907ea656-78a2-4ddc-93fa-f964f17c3181" name="void DrawHudWeapon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="aeffee57-258e-4dde-800f-bbf3b7ca02ee" />
+          </operation>
+          <operation Id="ec58c087-7c3c-4c80-b63a-edef7bc412d2" name="void DrawAmmo" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1d238ce3-22b7-41b7-a4dc-ef853773fb2e" />
+          </operation>
+          <operation Id="9ed029a5-e98d-438b-afad-c71baa7ecc00" name="void UseWeapon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d429bda5-64ba-4f1a-a43e-c1a2b39f9f67" />
+          </operation>
+          <operation Id="6fe50f7a-c76a-488f-a9cc-902e6e765320" name="bool CheckWeapons" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3bb0fb8e-13a3-4f5f-90cd-bbdea267a6b1" />
+          </operation>
+          <operation Id="12cb9011-42d2-4f02-92d6-b60ffe8847e9" name="void DestroyWeapon" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="239616b3-7c52-473d-b9a4-537bbc6bb93f" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3a055540-2482-465d-9ac4-607e817d7913" name="struct siPosition" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="579e6c9d-636d-433f-9234-ba160025e93f" />
+        <ownedAttributesInternal>
+          <property Id="6a5f59ae-09a0-42b1-b671-f52e63a74d1a" name="int x" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7dfb79e6-6276-45d7-a3cb-7080052b4bf4" />
+          </property>
+          <property Id="9f0d05f7-079d-4f39-a4fc-6e423a10cbb6" name="int y" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0ba3aa3c-2eda-4b74-91bd-4fbcfe724c14" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="dcd8a90b-e507-4454-99a4-0a62b64676f9" name="sfPosition" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="40de22cd-e5f3-4f2e-901d-3bcf4a8db156" />
+        <ownedAttributesInternal>
+          <property Id="66e56880-3a3d-40cb-9e7d-d167c0d22ba1" name="float x" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f70e474a-faf3-46ab-8441-1777a3fc4439" />
+          </property>
+          <property Id="4e6725d0-973c-40b2-94b6-d8d50b3e81c7" name="float y" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bdbf7e46-87fe-4a0e-9c3c-a8b35b799b1c" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="52f6b3c2-389c-473d-8e77-d783d0220af7" name="sTex" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="72cf5b49-52ba-49b2-a73b-4e05201751fa" />
+        <ownedAttributesInternal>
+          <property Id="51694ee5-e566-47e1-a790-b82768363673" name="unsigned int uiSPrite" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="278bf84d-60f2-4b8f-a34f-02a59cd93a21" />
+          </property>
+          <property Id="bf934747-c065-457b-9588-52d3654db7e9" name="float fIndex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="264fbd84-5225-4497-bb7e-413472f9c2ef" />
+          </property>
+          <property Id="43a4b0a4-15e0-4a47-a27a-27bd504723e9" name="float fIndexOffset" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b96f3d7e-3852-465f-be32-9e9361817978" />
+          </property>
+          <property Id="ea4af82b-dcfe-4a41-b3cb-8ea879a8cd4f" name="float fYIndex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="53d87355-38bc-4b41-97f3-1f9f4a16a82e" />
+          </property>
+          <property Id="484dc08c-7812-49c0-b343-bdf5ce526dc7" name="float fYIndexOffset" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fc8330cc-d646-4c27-acf8-1694ece7d648" />
+          </property>
+          <property Id="4603b0a9-f2aa-4190-91c3-29d4b500952d" name="float fAniTimer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="27083a7c-357a-4ca6-8144-cc84506aaff7" />
+          </property>
+          <property Id="6686f9a7-d881-4d8f-8ec6-fdd9df0a6881" name="int iIndex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f7dbf554-50ac-49d2-ad21-5da364f79d1f" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c60deea2-a601-4dcb-903a-347fb97185ec" name="sVector2D" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b5a7ffbf-473d-44bb-ae41-9ed518fd5016" />
+        <targetEnds>
+          <association Id="ad731b4c-ccef-4a6a-aad7-c14e69e6dce6" isDerived="false" sourceEndRoleName="sVector2D" targetEndRoleName="sfPosition" isLeaf="false" isAbstract="false">
+            <classMoniker Id="dcd8a90b-e507-4454-99a4-0a62b64676f9" LastKnownName="sfPosition" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f538df2c-853b-4d95-89a6-f1c12c660102" name="sVector2D" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b83f67a4-a79e-48b5-81fb-583f64f87eb5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="00d4ab6f-796a-401e-b2b6-8c2646556d1d" name="sfPosition" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="83de40de-1547-4970-aa0e-ebbeea7b0e4a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="63ebbbeb-5d6a-496c-bc88-c00b015cbaab" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="631ecd2a-f90e-48ca-84a6-bb29caa65b3e" name="sfPosition Pos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0227077b-a749-4848-b667-eadfb5c151c8" />
+          </property>
+          <property Id="30ad293e-97c5-4289-9ef7-ae0b0d2f0d89" name="float fDir" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f86dfc17-8411-4258-8b8d-4865a17a0cfa" />
+          </property>
+          <property Id="10ea7591-039d-4b61-9552-1fd3a3bf6c58" name="float fLength" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9d697c9b-9fac-4db5-a83c-4b45390d9a7c" />
+          </property>
+          <property Id="bb82018d-4aac-47ef-ac19-d2270dbb803d" name="float fSpread" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5200d331-4413-47fe-993d-2b3c92cd2721" />
+          </property>
+          <property Id="27ec17db-5f16-47f1-ba1a-0f421b9dbafd" name="float fSpeed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="543fc7ba-dfec-451d-b664-3003838acc67" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5dcbf306-d488-403f-a142-0c26ec5ef781" name="sItem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9d2c33c6-b9ac-4fbe-beac-b012130b3892" />
+        <targetEnds>
+          <association Id="0e8db42a-b06a-41d5-a784-173668ea7628" isDerived="false" sourceEndRoleName="sItem" targetEndRoleName="sVector2D" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c60deea2-a601-4dcb-903a-347fb97185ec" LastKnownName="sVector2D" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="72cdfaa8-1009-45a6-83e3-f9997bb90c35" name="sItem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2c4d12cf-05bd-4eeb-8482-2f5fe8283873" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="18f5a87f-5576-473d-92e0-bc31b3e2ac9f" name="sVector2D" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4df69778-0216-4ce0-81cc-54c6e3ae7744" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b658228e-d0a5-499e-b8c0-538e06a7bcad" />
+          </association>
+          <association Id="96b3f91b-c655-41b1-a04d-d5ebacf4bd34" isDerived="false" sourceEndRoleName="sItem" targetEndRoleName="sfPosition" isLeaf="false" isAbstract="false">
+            <classMoniker Id="dcd8a90b-e507-4454-99a4-0a62b64676f9" LastKnownName="sfPosition" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b9d330f8-be86-4d2b-ab8f-a0e621272552" name="sItem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1cd400f7-a08c-4da3-9c50-4f87510d4e27" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d9895ae7-d154-4b62-93a4-0515c0e2747b" name="sfPosition" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3948da6f-0247-4e99-937e-ad9eb5049f2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5c479b53-2c51-46f6-bc36-c6e3539ee4de" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="c58ffef8-fd39-46ab-8466-5be373907e23" name="sfPosition Pos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8e67d9c4-e9a2-4cb4-bf2a-f2024db56282" />
+          </property>
+          <property Id="a02699fb-a394-4e2a-bd61-f193065b6ee3" name="sTex Tex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8d835e85-50bf-43ad-bdf3-a5803e5e5484" />
+          </property>
+          <property Id="2ffe84a5-36bf-44a5-9a8f-e8e929abfc47" name="sVector2D Vec" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a68f1eba-417f-4fc7-9648-9cf1e75b243b" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3290dfd1-7e5a-40ea-ab2f-50abe23a9e5d" name="particle" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c172b4a3-66bb-4d48-b39b-871986c457e3" />
+        <targetEnds>
+          <association Id="b2bc4387-0427-467d-95f0-e33b32d7a131" isDerived="false" sourceEndRoleName="particle" targetEndRoleName="sTex" isLeaf="false" isAbstract="false">
+            <classMoniker Id="52f6b3c2-389c-473d-8e77-d783d0220af7" LastKnownName="sTex" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95e03968-621f-4496-8fcc-2b4488615d10" name="particle" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dd99e22a-5a35-4a26-8ae7-932f4e5df4d2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="275925db-1a73-4311-8dea-68cd3ffb34b5" name="sTex" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e212d7e2-4efd-481d-869c-5bc958c1fc0c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9a1795dd-f496-465c-b4e7-fa944364af8b" />
+          </association>
+          <association Id="85ab6509-a104-4654-8221-f9e682dcd303" isDerived="false" sourceEndRoleName="particle" targetEndRoleName="sfPosition" isLeaf="false" isAbstract="false">
+            <classMoniker Id="dcd8a90b-e507-4454-99a4-0a62b64676f9" LastKnownName="sfPosition" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6e5ded3d-c7bd-40ec-a02c-c5b959fec751" name="particle" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="86f233ca-1527-4044-9bba-9d80aed6b77e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1947baee-1435-495e-b5c2-7b2b7c5f1bee" name="sfPosition" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2779e300-bdfe-465f-9ea6-f132809d3497" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7d91913c-f72e-4d82-9fb2-fd33dc84b13a" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="b5863cbc-31ff-453c-bb1c-12bcd777e5b6" name="sfPosition Pos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9de5351d-4bb0-44be-81bb-87f7d22398a6" />
+          </property>
+          <property Id="94e11767-e2f8-442d-a658-1630f33bf360" name="sfPosition oPos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6aabfe09-16d4-428d-ae48-d2c780ff0611" />
+          </property>
+          <property Id="e4981f95-b90f-4c16-af20-d51d5a8c27e3" name="sfPosition tPos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6aa7a2e2-a422-4576-bbac-0e3d7b86b6d1" />
+          </property>
+          <property Id="ca0715e6-8798-464a-adca-bc49ceb34356" name="sTex Tex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bf8511b5-f56e-415a-80a5-41854de48d9e" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="30fceccf-c029-49cd-95e1-9395a11752ab" name="sWeapon" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="efeb6d8a-5f1f-4ebf-8f6e-40f2eb5a5f1e" />
+        <ownedAttributesInternal>
+          <property Id="85af364b-c424-4687-882d-3def25cf0662" name="int iRange" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="da27e9a9-4c56-45c1-8f01-d9b719762886" />
+          </property>
+          <property Id="fbd47a57-aa5b-4223-b69e-65836ca0d4ac" name="int iRecoil" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7badc195-a982-4674-a512-3f1345d6a2fe" />
+          </property>
+          <property Id="ced25965-4f07-4731-9ea4-f229b4575ee3" name="int iClips" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0c19e19c-1d9e-43f1-b156-8eb3d462a623" />
+          </property>
+          <property Id="11c10192-1f66-4835-ab21-97baee27f2fa" name="int iClipSize" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e88984c0-356b-4f78-8e14-ba9ed67d4d6f" />
+          </property>
+          <property Id="31cb6547-bd6b-4c55-b2d2-148bdf7cba97" name="int iBullets" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="742d4fd1-cd4b-4dc8-a9ae-3eadc4622734" />
+          </property>
+          <property Id="008bbeb0-8bad-4093-9b12-309cf220de63" name="int iReloadSpeed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6b6549c6-230d-499c-aa89-0cad14b3ed87" />
+          </property>
+          <property Id="a1ce93eb-8c83-4c2d-a0f7-b89dfa17a397" name="int iDamage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6dc37b4f-23d1-4220-b53f-839ffb7b9d40" />
+          </property>
+          <property Id="0ec3cddd-a065-40bb-9ba6-033aaef8ac54" name="int iID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2c5b2d2e-cc92-47c3-928b-9c1735410ff8" />
+          </property>
+          <property Id="e47adc47-b07f-467b-9e50-884feba0a507" name="double dSpeed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3b8bcea4-4004-4543-a4a0-a667a775d8c9" />
+          </property>
+          <property Id="4607ec29-1d80-46a4-bd79-32dcb0eabdd9" name="double dShootSpeed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e11c5fef-10cf-485e-a461-d79e170e33b3" />
+          </property>
+          <property Id="aec38df5-42aa-4961-9af3-c114eae01487" name="double dUVIndex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2e994450-e313-4963-a524-12a55754290b" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b83ae395-3cda-4d56-b480-e1e9f90cd14d" name="bullet" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3da3006d-2db6-44d7-9044-34853ac998c2" />
+        <targetEnds>
+          <association Id="b120999b-13ac-4289-915d-5366aa8dd8b1" isDerived="false" sourceEndRoleName="bullet" targetEndRoleName="sVector2D" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c60deea2-a601-4dcb-903a-347fb97185ec" LastKnownName="sVector2D" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fdc2fce1-3c59-4772-a64f-d9f893ac8a2f" name="bullet" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ea33be6e-3f17-4c22-bb6d-06131d41a316" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="06ddf1dc-4f24-460a-8781-ad0f25c68bdc" name="sVector2D" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="969efcee-678c-42eb-8427-1409ccd9d509" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8e182e66-56b0-4f94-9890-967979c1cf29" />
+          </association>
+          <association Id="4e02f120-0c31-4e9d-996e-bc3653cab921" isDerived="false" sourceEndRoleName="bullet" targetEndRoleName="sfPosition" isLeaf="false" isAbstract="false">
+            <classMoniker Id="dcd8a90b-e507-4454-99a4-0a62b64676f9" LastKnownName="sfPosition" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d4dab8f8-fa3a-47f4-a22f-86d2e629caca" name="bullet" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a31c3ebf-f3c3-42ba-ae25-be17277c81e1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c51814aa-48a9-4715-9722-f0ed11a96811" name="sfPosition" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ea0453e1-9eb9-44a6-81fc-9ab215e6b4bc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="be148e80-3b2a-4718-9789-7dfa3b459f43" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="97a4e7e4-5d6e-405d-9aa6-b0d93b113e5e" name="sfPosition Pos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6e12277b-3a97-43e5-924f-86b328480cf3" />
+          </property>
+          <property Id="b7f5ea98-f139-4622-aa80-2eb7c9cc8298" name="sfPosition oPos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="262d1f20-7414-49ea-9f81-dccf6434f9ce" />
+          </property>
+          <property Id="61307959-5e2d-44fb-b45b-fef18ce6b32b" name="sfPosition tPos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="edcff151-fdd5-4440-9588-1c63da8d7c92" />
+          </property>
+          <property Id="794515f1-6510-4338-b2c1-a04500c1d9bb" name="sVector2D Vec" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1b326175-3432-4059-b915-b8adfce6a038" />
+          </property>
+          <property Id="902fb195-51c0-432f-9ca1-d80b4ee77745" name="sTex Tex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="eab1d8a8-c93e-4a36-ac75-12c913efe6a1" />
+          </property>
+          <property Id="b2f9d615-0bf6-4e83-bc0c-cad68d83113a" name="float dRange" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="426f0f4b-40bc-4a98-889f-25d37a70c7e7" />
+          </property>
+          <property Id="b2cefd7f-f321-462b-9966-e8a70d919413" name="int iDir" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="689d95f2-8a54-4674-b14f-de8ea5495975" />
+          </property>
+          <property Id="6fbbd767-687f-4e67-8bdb-04e107e37332" name="int iDamage" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="96534f76-ae9f-4c6f-896c-2c09652beb66" />
+          </property>
+          <property Id="af744399-8218-4989-9b44-d834dc215df9" name="iParID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5b19b7d8-29a4-48c0-b500-3823604af399" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c29ba152-17c7-43b2-9b11-70176972fcf1" name="instance" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e44b5694-9d57-4f28-9a9c-b94b06286518" />
+        <targetEnds>
+          <association Id="8d6ace78-7ad0-401b-a462-51774dd5b97d" isDerived="false" sourceEndRoleName="instance" targetEndRoleName="sVector2D" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c60deea2-a601-4dcb-903a-347fb97185ec" LastKnownName="sVector2D" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a369e021-602a-44df-a4fb-26d255c6a42d" name="instance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a36cf2e1-b875-4d95-82de-190cdbe0a7b6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4d6dffec-ff5e-4cd0-8de7-9d6c41fcaa5a" name="sVector2D" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c4835c47-94b9-48e9-b2a9-86d24b2a3b02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="49d3e8c4-3a05-4ecd-a97c-9e758015f19b" />
+          </association>
+          <association Id="7404543a-e476-4e42-97ef-a70f1b18fec3" isDerived="false" sourceEndRoleName="instance" targetEndRoleName="sfPosition" isLeaf="false" isAbstract="false">
+            <classMoniker Id="dcd8a90b-e507-4454-99a4-0a62b64676f9" LastKnownName="sfPosition" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c4b018a6-3baa-46f7-bec9-17d8e9ea12df" name="instance" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b41cc4d4-636e-42d9-918d-daea75da88fb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="50f7a26c-09d3-435e-8393-8e6869958008" name="sfPosition" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="85b146db-e382-472c-83d7-02c5d5b90cad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="779ee843-b3bf-4e86-bfdd-53f072f3dede" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="bed1af90-9e99-4ca1-9024-04abbbccbd89" name="sfPosition Pos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d941212d-4a93-44ca-ab9b-e813cad21af7" />
+          </property>
+          <property Id="c1acdfcc-3ad7-49c1-8a49-5c5a6f632bb3" name="sfPosition tPos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="179124ac-4aa0-44ba-9c96-8959ed3978a7" />
+          </property>
+          <property Id="323e4713-dfab-42f9-911b-8d9222e47b11" name="sVector2D Vec" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="14f0f4ed-c1e2-4759-adfa-faab791989e9" />
+          </property>
+          <property Id="52b4cd4b-ea21-4d20-95a8-cc38e60d5a99" name="sTex Tex" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b78f63b3-04c7-4462-80f2-eb23f017cb22" />
+          </property>
+          <property Id="b57c15a6-d0f7-4474-a7e4-05f9fed548be" name="int iHealth" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f75df041-c2b5-4db9-b114-0c429d4975e2" />
+          </property>
+          <property Id="4fe48744-6726-4cdc-b81d-2bb782b4030f" name="int iWall" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1d56553c-1924-4415-ad3c-86a8e9ae64b6" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="633b02fd-871f-42d4-8ba5-ee89186596ea" name="GameStates" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ed1b282f-7773-4663-9697-b29f87fbcf6b" />
+        <targetEnds>
+          <association Id="3f9cb65c-8950-4b1c-8290-4edbb6cfd21d" isDerived="false" sourceEndRoleName="GameStates" targetEndRoleName="Menus" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2ad57fd9-320f-42a5-9643-b268da01800f" LastKnownName="Menus" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="20dcc831-9e62-4f6c-a7c8-85b56d9f7e82" name="GameStates" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="61dfd65f-ce8b-440d-9273-bc37caf49c5e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42fc8c55-aad0-4817-9b61-1fb6b75e01db" name="Menus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c8091940-f553-4dc9-9306-bf29241fb5a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="06905a0f-4119-4eae-93eb-c4d08a7c69f9" />
+          </association>
+        </targetEnds>
+        <ownedLiterals>
+          <enumerationLiteral Id="8a35e503-f8fa-4c9b-9580-ba5cddcda28e" name="GS_SPLASH_SCREEN">
+            <elementDefinition Id="7b8a0fa7-b6f8-4987-a3db-6c6a66ec99db" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="5f3dca80-5173-4593-9874-58bfd4cee82e" name="GS_MAIN_MENU">
+            <elementDefinition Id="8827ef64-ff51-4364-8065-d68e6cda7443" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="6ee39562-c8c9-4985-af41-a5b0c5fb8d69" name="GS_OPTIONS_MENU">
+            <elementDefinition Id="1a2dba0f-b1bc-448e-aae8-b3e1aeee9d72" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="f63db7dd-49bc-406c-b1af-d1490b019b88" name="GS_MAP_SELECT_MENU">
+            <elementDefinition Id="723b4b4f-ce8d-4fa3-aad0-1f1ed48ac4fe" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="7b95e461-0ea3-4390-8dfa-fff3a8e063ad" name="GS_HIGHSCORES_MENU">
+            <elementDefinition Id="f202b2fe-e285-440a-8ff0-bb96e672309e" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="a5d7bbb5-5812-4014-85df-384d5e958265" name="GS_HELP_MENU">
+            <elementDefinition Id="9c06350c-9e9a-482f-ba9f-206e2d8cee7a" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="986a4c16-08d5-47e5-ba27-87be8a865867" name="GS_HELP_MENU2">
+            <elementDefinition Id="cf783dd8-180e-4273-9925-f39a577a4c77" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="a4c49c6f-0fef-4f84-a4d7-7681d58fffc4" name="GS_CUSTOMIZE_MENU">
+            <elementDefinition Id="62b8c69a-e00b-40a4-bc4e-19964c36511f" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="120731f2-2050-4fba-bee8-6fdba492f21f" name="GS_PLAYER_SELECT_MENU">
+            <elementDefinition Id="a2348ebd-e500-4932-a0dd-0bef3b62d980" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="e3856e61-fa66-4443-a00b-933217113202" name="GS_GAME_SCREEN">
+            <elementDefinition Id="3bd314a8-ae60-41a5-8c62-117d99de9b03" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="353ef754-e200-475e-8578-feb43acf8ed4" name="GS_END">
+            <elementDefinition Id="3c815cb1-de86-4d13-83a6-c6ed15fc23cb" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="5956a57f-2513-4a5c-a340-0bc323a3ced7" name="UMLTopDownShooter">
+    <elementDefinition Id="a9d21f41-4150-4864-b99d-1f689fb1b4d7" />
+    <profileInstances>
+      <packageHasProfileInstances Id="fe630ee4-fa3a-4224-9859-3cf323519060">
+        <profileInstance Id="c5c50298-7f9a-4e0f-b105-eb32ac05113d" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4827b161-6228-47fa-9c52-5245faf35faa">
+        <profileInstance Id="f61f2209-4e74-49ed-ace5-9a21c149d352" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

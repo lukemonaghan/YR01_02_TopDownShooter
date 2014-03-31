@@ -1,0 +1,4 @@
+Sprite Bases from
+http://xboxforums.create.msdn.com/forums/t/32476.aspx - Explosion image
+http://www.juniorgeneral.org/			      - Base for Top Down
+Luke Monaghan
